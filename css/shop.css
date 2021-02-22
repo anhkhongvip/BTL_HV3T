@@ -27,7 +27,7 @@ a.nav-link {
     color: white;
     width: 100%;
     background-size: 100% 105%;
-    background-image: url("http://test.lunartheme.com/jakiro/wp-content/uploads/2015/05/header_bg_shop.jpg");
+    background-image: url(../images/header_bg_shop.jpg);
 }
 .background1 .khoi1{
     padding: 10% 13%;
