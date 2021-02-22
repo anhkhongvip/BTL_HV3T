@@ -1,0 +1,218 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+/* begin-menu */
+.section.header{
+    background-color: #343a40;
+}
+.navbar-brand
+{
+    padding: 0 5%;
+    font-weight: 500;
+    font-size: 30px;
+}
+a.nav-link {
+    display: block;
+    margin: 0 6px;
+    text-decoration: none;
+    font-weight: 500;
+}
+/* end-menu */
+.background1{
+    border: 1px solid black;
+    color: white;
+    width: 100%;
+    background-size: 100% 105%;
+    background-image: url("http://test.lunartheme.com/jakiro/wp-content/uploads/2015/05/header_bg_shop.jpg");
+}
+.background1 .khoi1{
+    padding: 10% 13%;
+}
+.khoi1 a{
+    border: 1px solid white;
+    display: inline-block;
+    padding: 2% 4%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.4s;
+    font-size: 18px;
+}
+.khoi1 a:hover{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}
+.khoi2 {
+    padding-top: 2%;
+    text-align: center;
+}
+.khoi2 p{
+    font-weight: 700;
+    font-size: 18px;
+}
+.khoi2 span{
+    font-weight: 400;
+    font-size: 90%;
+}
+.khoi3{
+    text-align: center;
+    margin-left: 30%;
+}
+.tabbar .nav-item a{
+    color: black;
+}
+.tabbar .nav-item a:hover{
+    background-color: black;
+    color: white;
+}
+.khoi4{
+    float: left;
+    display: block;
+    border: 1px solid white;
+    width: 25%;
+    text-align: center;
+    font-weight: normal;
+    margin-right: 3%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.khoi4 .img{
+    overflow: hidden;
+    position: relative;
+}
+.khoi4 .img img{
+    width: 100%;
+    height: 100%;
+}
+.khoi4 .img .background2{
+     width: 100%;
+     height: 100%;
+     background-color: black;
+     transition: 0.4s;
+     opacity: 0;
+ }
+.khoi4 .img .background2:hover{
+    opacity: 0.5;
+}
+.khoi4 .description a{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 3% 8%;
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    transition: 0.4s;
+    font-size: 18px;
+}
+.khoi4 .description a:hover{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+@media only screen and (max-width: 767px)
+{
+    .service{
+        text-align: center;
+        padding-top: 3%;
+    }
+}
+.col-md-4.service{
+    width: 100%;
+    font-size: 13px;
+    line-height: 24px;
+}
+.col-md-4.service span{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+}
+/* begin footer */
+.footer-container
+{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #2b2b2b;
+}
+._1khoi
+{
+    padding: 5% 25%;
+    text-align: center;
+}
+._1khoi h1
+{
+    font-size: 60px;
+    letter-spacing: 10px;
+    color: #ffffffe1;
+}
+._1khoi ul
+{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+._1khoi ul li
+{
+    margin: 3% 0;
+    padding: 0% 3%;
+    border-right: 1px solid #ffffffbf;
+}
+._1khoi ul li:nth-child(7)
+{
+    border-right: none
+}
+._1khoi ul li a
+{
+    text-decoration: none;
+    font-weight: 500;
+    color: #ffffffcc;
+    transition: 0.4s;
+}
+._1khoi ul li a:hover
+{
+    color: white;
+}
+._1khoi .icon a i
+{
+    padding-right: 2%;
+    color: #ffffffe1;
+    transition: 0.4s;
+}
+._1khoi .icon a i:hover
+{
+    color: gray;
+}
+.block-bottom
+{
+    background-color: #252525;
+    text-align: center;
+}
+.block-bottom p
+{
+    line-height: 60px;
+    color: #ffffffe1;
+    font-size: 14px;
+}
+.block-bottom p span
+{
+    font-weight: bold;
+    color: white;
+}
+/* end footer */
+
+@media only screen and (max-width: 992px)
+{
+    .menu-left
+    {
+        display: none;
+    }
+    .navbar-brand
+    {
+        padding: 0;
+    }
+}
